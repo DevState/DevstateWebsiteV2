@@ -1,0 +1,316 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    background-color: #96181b;/* Temporary fix for firefox empty space at the bottom of the screen*/
+    font: normal 1em "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
+}
+
+/* -------------- SECTIONS -----------------*/
+
+section{
+    width:100%;
+}
+
+.sectionHeader{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+
+    text-shadow:        1px 4px 10px rgba( 0, 0, 0, 0.35);
+    text-transform:     uppercase;
+    font-size:          1.6em;
+}
+
+.sectionHeader h1{
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.articleList{
+    list-style-type:none;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.articleList li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#homeSection{
+    background: #02c4d1;
+    height:100%;
+}
+
+#trainingSection{
+    background: #028E9B;
+}
+
+#teamSection{
+    background: #FFB100;
+}
+
+#contactSection{
+    background: #FD0006;
+    text-align: center;
+}
+
+/* -------------- HOME LOGO AND TITLE CENTERING -----------------*/
+
+/* -------------- TAG LINE -----------------*/
+.tagline {
+    text-shadow:        1px 4px 10px rgba( 0, 0, 0, 0.35);
+    text-transform:     uppercase;
+    font-size:          1.6em;
+    color:              #fff;
+}
+
+#logoWrapper{
+    display:table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#logoCell{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+
+/* -------------- OVERLAY -----------------*/
+
+.overlay{
+    width : 100%;
+    height : 100%;
+    top:0;
+    left:0;
+    position: relative;
+    background: transparent url("../img/vignette.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* -------------- CONTENT ITEM -----------------*/
+.contentItem {
+    position: relative;
+    background-color: #FDFDFD;
+    text-align:     center;
+
+    max-width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 0px;
+
+}
+
+.contentItem img{
+    width: 100%;
+}
+
+.contentItem header{
+    /*color: #666;*/
+    margin-bottom: 0px;
+    font-weight: bold;
+
+    height: 15%;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: block;
+}
+
+.contentItem header h1{
+    font-size: 1.4em;
+}
+
+.website{
+    padding: 0px;
+}
+
+.websiteYellow{
+    padding: 0px;
+}
+
+.websiteYellow a:link {color:#FFB100;}      /* unvisited link */
+.websiteYellow a:visited {color:#FFB100;}  /* visited link */
+.websiteYellow a:hover {color:#02c4d1;}  /* mouse over link */
+.websiteYellow a:active {color:#FFB100;}  /* selected link */
+
+.contentItem p{
+    text-align: left;
+    width:90%;
+    margin: auto;
+    font-weight: 700;
+    /*color: #666;*/
+    word-wrap: break-word;
+    padding-bottom: 15px;
+}
+
+/* -------------- WORKSHOPS -----------------*/
+
+#trainingSection article{
+    color:#FFFFFF;
+}
+
+#canvasArticle{
+    background-color: #0c6d9b;
+}
+
+#cssArticle{
+    background-color: #ffcc00;
+}
+
+#webGLArticle{
+    background-color: #fd1e00;
+}
+
+/* -------------- TEAM -----------------*/
+
+#teamSection article{
+    color:#666;
+}
+
+/* -------------- CONTACT FORM -----------------*/
+
+
+#contactForm {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    display:inline-block;
+    width:410px;
+}
+
+#contactForm sup{
+    font-size: .6em;
+    line-height: .6em;
+}
+
+#contactForm input, textarea, select, button{
+    width : 100%;
+    margin: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#contactForm button{
+    text-transform: uppercase;
+    height: 2em;
+}
+
+/* -------------- FOOTER -----------------*/
+
+.footer{
+    width:          100%;
+    text-align:     center;
+    margin-bottom:  400px;/* temporary hack to make sure this section is tall enough for most screens */
+}
+
+.socialMediaImageLink{
+    border:                 3px solid white;
+    vertical-align:         top;
+    text-decoration:        none;
+    margin:                 8px;
+    width: 45px;
+    height: 45px;
+}
+
+#copyright{
+    display: none;
+}
+
+.introText{
+    position: relative;
+    width: 410px;
+    text-align: center;
+}
+
+
+.introArticle {
+    position: relative;
+    text-align: center;
+    max-width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+}
+
+.introArticle p{
+    width: 100%;
+}
+
+.introArticle a:link {color:#FFB100;}      /* unvisited link */
+.introArticle a:visited {color:#FFB100;}  /* visited link */
+.introArticle a:hover {color:#02c4d1;}  /* mouse over link */
+.introArticle a:active {color:#FFB100;}  /* selected link */
+
+
+/* -------------- RESPONSIVE -----------------*/
+
+@media only screen and (max-width: 460px) {
+
+    .introText{
+        width: 100%;
+    }
+
+    #logoImage {
+        width: 65%;
+    }
+
+    .sectionHeader{
+        font-size:  1.4em;
+    }
+
+    .tagline {
+        font-size:1.4em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contentItem {
+        width : 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #contactForm{
+        width : 90%;
+    }
+
+    .socialMediaImageLink{
+        border:                 2px solid white;
+        margin:                 4px;
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .tagline {
+        font-size:1em;
+    }
+
+    .sectionHeader{
+        font-size:  1.2em;
+    }
+
+}

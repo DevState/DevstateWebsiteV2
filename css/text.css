@@ -1,0 +1,52 @@
+
+.tagline
+{
+    text-shadow:        1px 4px 10px rgba( 0, 0, 0, 0.35);
+    text-transform:     uppercase;
+    font-size:          1.6em;
+    color:              #fff;
+}
+
+p
+{
+    font-size:          1em;
+    color:              #000;
+}
+
+.contactForm
+{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    position:relative;
+    display:inline-block;
+}
+label
+{
+    text-align: left;
+}
+
+.sup
+{
+    vertical-align: super;
+    font-size: .6em;
+    line-height: .6em;
+}
+
+input,
+textarea,
+select,
+button
+{
+  width : 500px;
+  margin: 0;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+button
+{
+    text-transform: uppercase;
+    height: 2em;
+}
