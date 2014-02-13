@@ -170,6 +170,9 @@ section{
 #cssArticle{
     background-color: #ffcc00;
 }
+#cssArticle p{
+    color:#303030;
+}
 
 #webGLArticle{
     background-color: #fd1e00;
@@ -199,13 +202,9 @@ section{
     line-height: .6em;
 }
 
-#contactForm input, textarea, select, button{
+#contactForm input, label, textarea, select, button{
     width : 100%;
     margin: 0;
-
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 #contactForm button{
