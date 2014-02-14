@@ -45,6 +45,58 @@ section{
     padding-bottom: 10px;
 }
 
+
+/* -------------- MAIN NAVIGATION -----------------*/
+
+
+#pageNavigation{
+    position: relative;
+    text-align: center;
+    width:100%;
+    margin-bottom:0;
+    background-color:#02c4d1;
+    padding:0px;
+}
+
+/* I wanted to have a Menu title for semantic purposes, but this is ignored?!
+nav h2{
+    display:none;
+}*/
+
+nav ul{
+    margin:0px;
+    padding: 0px;
+}
+nav li{
+    list-style-type:none;
+    display:inline;
+}
+
+nav a{
+    font-size:18px;
+    padding-top:8px;
+    padding-bottom:5px;
+    padding-left:8px;
+    padding-right:8px;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#pageNavigation a:link{color:#FFFFFF;}
+#pageNavigation a:visited{color:#FFFFFF;}
+#pageNavigation a:focus{
+    color:#FFFFFF;
+    background-color: #197a80;
+}
+#pageNavigation a:hover{
+    color:#FFFFFF;
+    background-color: #197a80;
+}
+#pageNavigation a:active{color:#FFFFFF;}
+
+/* -------------- SECTIONS -----------------*/
+
 #homeSection{
     background: #02c4d1;
     height:100%;
@@ -262,6 +314,12 @@ section{
 /* -------------- RESPONSIVE -----------------*/
 
 @media only screen and (max-width: 460px) {
+
+    nav a{
+        font-size:15px;
+        padding-left:2px;
+        padding-right:2px;
+    }
 
     .introText{
         width: 100%;
